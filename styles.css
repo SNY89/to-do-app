@@ -1,0 +1,158 @@
+/* General styles */
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container styles */
+.container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles for the header */
+.header {
+    background-color: #546de5;
+    color: white;
+    padding: 30px 40px;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+/* Styles for the input field and the add button */
+.header input {
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 60%;
+}
+
+.header .addBtn {
+    padding: 10px 20px;
+    background-color: #f5f5f5;
+    color: #546de5;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.header .addBtn:hover {
+    background-color: #fff;
+}
+
+/* Styles for the list */
+ul {
+    margin: 0;
+    padding: 0;
+    transition: 0.3s;
+}
+
+ul li {
+    position: relative;
+    background-color: #f9f9f9;
+    list-style-type: none;
+    cursor: pointer;
+    padding: 15px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+ul li:last-child {
+    margin-bottom: 0;
+}
+
+ul li:hover {
+    background-color: #ddd;
+}
+
+/* Styles for the close button */
+.close {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #999;
+    font-size: 20px; /* increase the font size */
+    font-weight: bold; /* make the X thicker */
+    width: 30px; /* make the button square */
+    height: 30px; /* make the button square */
+    border-radius: 5px; /* add rounded corners */
+    background-color: #f5f5f5; /* set the background color */
+    text-align: center;
+    line-height: 28px; /* center the X vertically */
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.close:hover {
+    background-color: #546de5; /* change the background color on hover */
+    color: #fff; /* change the text color on hover */
+}
+
+/* Styles for the checked state */
+.checked {
+    background-color: #888;
+    color: #fff;
+    text-decoration: line-through;
+}
+
+.input-field {
+    height: 40px;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+    padding: 10px;
+    width: calc(50% - 30px);
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.addBtn {
+    height: 40px;
+    width: calc(50% - 30px);
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 40px;
+    /* ... rest of your styles ... */
+}
+
+.edit {
+    position: absolute;
+    right: 50px; /* adjust this value to add more space between the buttons if needed */
+    top: 50%;
+    transform: translateY(-50%);
+    color: #999;
+    font-size: 20px;
+    font-weight: bold;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    text-align: center;
+    line-height: 28px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.edit:hover {
+    background-color: #546de5;
+    color: #fff;
+}
+
+
+
+
